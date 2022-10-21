@@ -1,0 +1,58 @@
+body {
+  font-family: "Cursed Timer ULiL";
+  margin: 0;
+  text-align: center;
+  background-color: #1b244a;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Verdana;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  font-size: 70px;
+  width: 150px;
+  background-color: black;
+  color: #f94f6d;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn,
+#reset-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  margin: 5px 5px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+#reset-btn {
+  width: 120px;
+  background-color: transparent;
+}

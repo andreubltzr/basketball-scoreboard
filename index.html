@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scoreboard">
+        <h1 class="title">HOME</h1>
+        <h1 class="score" id="home-score">0</h1>
+        <div class="btn-div">
+          <div class="positive">
+            <button class="btn" onclick="home1()">+1</button>
+            <button class="btn" onclick="home2()">+2</button>
+            <button class="btn" onclick="home3()">+3</button>
+          </div>
+          <div class="negative">
+            <button class="btn" onclick="homeNeg1()">-1</button>
+            <button class="btn" onclick="homeNeg2()">-2</button>
+            <button class="btn" onclick="homeNeg3()">-3</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="scoreboard">
+        <h1 class="title">GUEST</h1>
+        <h1 class="score" id="guest-score">0</h1>
+        <div class="btn-div">
+          <div class="positive">
+            <button class="btn" onclick="guest1()">+1</button>
+            <button class="btn" onclick="guest2()">+2</button>
+            <button class="btn" onclick="guest3()">+3</button>
+          </div>
+          <div class="negative">
+            <button class="btn" onclick="guestNeg1()">-1</button>
+            <button class="btn" onclick="guestNeg2()">-2</button>
+            <button class="btn" onclick="guestNeg3()">-3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button id="reset-btn" onclick="reset()">RESET</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
